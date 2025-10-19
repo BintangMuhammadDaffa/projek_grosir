@@ -1,0 +1,12 @@
+{
+    auto_https off
+}
+
+:80 {
+    redir https://{host}{uri} permanent
+}
+
+:443 {
+    tls ssl/cert.pem ssl/key.pem
+    reverse_proxy localhost:8000
+}

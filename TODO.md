@@ -1,0 +1,5 @@
+-   [x] Add dark mode CSS styles in the <style> section of app.blade.php
+-   [x] Add theme toggle button in the navbar next to the Biaya Operasional menu item
+-   [x] Add theme toggle button in the offcanvas menu next to the Biaya Operasional menu item
+-   [x] Add JavaScript for theme toggle functionality, including localStorage persistence
+-   [ ] Test the dark/light mode toggle in the UI
